@@ -36,7 +36,7 @@ AFRAME.registerComponent('multiuser-mode', {
       var networked = {
         app: 'a-painter',
         room: params.room,
-        serverURL: 'http://localhost/maestro-abaqus/',
+        serverURL: 'https://localhost/maestro-abaqus/',
         adapter: adapter,
         audio: voice
       };
